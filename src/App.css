@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainColor {
+  color: #ff6f00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.secondaryColor {
+  color: #644f9c;
+}
+
+.mainColor2 {
+  color: #f2f2f2;
+}
+
+.secondaryColor2 {
+  color: #404040;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1164px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .navbar_sec {
+    grid-column: 1/2;
+  }
+  .Navbar_links {
+    grid-column: 2/9;
+  }
+  .Navbar_login_Button {
+    grid-column: 9/11;
+  }
+  .Navbar_login_Button {
+    grid-column: 10/-1;
+  }
+}
+@media (max-width: 950px) {
+  button.singupBtn {
+    font-size: 1.4rem;
+  }
+  button.loginBtn {
+    font-size: 1.5rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 932px) {
+  button.singupBtn {
+    font-size: 1.2rem;
+  }
+  button.loginBtn {
+    font-size: 1.2rem;
+  }
+  .Navbar_links ul li {
+    font-size: 1.2rem;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 787px) {
+  html {
+    font-size: 45%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  /* .d-flex.slider-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
 }

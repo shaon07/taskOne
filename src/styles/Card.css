@@ -1,0 +1,44 @@
+.card-chips button {
+  /* background: #ff6f00; */
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 1px 3px 5px grey;
+}
+.active {
+  background-color: #ff6f00 !important;
+  font-weight: 700;
+}
+.linked {
+  background-color: #d1d1d1;
+  color: black !important;
+  font-weight: 700;
+}
+.Card_left img {
+  width: 90%;
+}
+.Card_right h3 {
+  color: #ff6f00;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.Card_right p {
+  font-size: 2rem;
+  color: #3e3d3d;
+}
+.Card_right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  /* background: red; */
+  /* height: 70vh; */
+}
+.Card_right button {
+  border: none;
+  background: none;
+  font-size: 2rem;
+  color: blue;
+}

@@ -1,0 +1,110 @@
+.navbar_items {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+.Navbar_links ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.Navbar_links ul li {
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 1rem;
+}
+.Navbar_links ul li a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.Navbar_links {
+  grid-column: 3/10;
+}
+.navbar_sec {
+  grid-column: 2/3;
+}
+.Navbar_login_Button {
+  grid-column: 10/12;
+}
+.navbar_sec h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.navbar_button_container {
+  justify-content: center;
+  display: flex;
+}
+.navbar_button_container button {
+  border: none;
+  padding: 4px 2rem;
+  margin: 5px;
+  font-size: 1.7rem;
+  border-radius: 2rem;
+}
+button.singupBtn {
+  background: #ff6f00;
+  color: white;
+  font-weight: 500;
+}
+button.loginBtn {
+  background: none;
+}
+.navbar_button_container {
+  background: white;
+  box-shadow: 2px 4px 3px grey;
+  border-radius: 30px;
+}
+.toggler_icon i {
+  font-size: 2rem;
+}
+.navbar_toggler {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Navbar_links {
+    grid-column: 3/10;
+    display: none;
+  }
+  .Navbar_login_Button {
+    grid-column: 10/12;
+    display: none;
+  }
+  .navbar_toggler {
+    display: block;
+    grid-column: -2;
+  }
+}
+
+.Navbar_links2 ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 2rem;
+}
+.Navbar_links2 ul li a {
+  text-decoration: none;
+}
+.Navbar_login_Button2 {
+  text-align: center;
+  margin: 2rem;
+}
+.navbar_button_container2 button {
+  font-size: 2rem;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+.navbar_button_container2 {
+  background: white;
+  box-shadow: 0 0 5px grey;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.MobileView {
+  display: block;
+}
+.MobileView2 {
+  display: none;
+}

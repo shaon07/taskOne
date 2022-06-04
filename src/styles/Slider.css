@@ -1,0 +1,32 @@
+.slider_card {
+  background: white;
+  box-shadow: 0 0 5px grey;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.slider_box_right h4 {
+  font-size: 2rem;
+}
+
+.slider_box_right h3 {
+  font-size: 3rem;
+}
+.slider_box_right {
+  padding: 1rem;
+}
+.row.slider_sec {
+  overflow-x: hidden;
+}
+.Slider_button button i {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.Slider_button button {
+  border: none;
+  margin: 1rem;
+}
+.Slider_button {
+  text-align: center;
+  margin: 2rem;
+}

@@ -1,0 +1,33 @@
+.service_text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2;
+  color: #644f9c;
+}
+.service_text h4 {
+  font-size: 1.7rem;
+}
+.service_container {
+  background-color: #80808014;
+}
+.service_box {
+  text-align: center;
+}
+.service_box i {
+  font-size: 6rem;
+  background: white;
+  box-shadow: 0 0 5px grey;
+  padding: 2rem 2.3rem;
+  margin: 1rem;
+  border-radius: 50%;
+  color: #644f9c;
+}
+.col-12.col-md-4.service_box button {
+  background: #644f9c;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 5px 2rem;
+  margin: 2rem 0;
+  border-radius: 50px;
+}

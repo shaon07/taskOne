@@ -1,0 +1,16 @@
+.footer_card h3 {
+  color: #644f9c;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2;
+}
+.footer_icon i {
+  font-size: 3rem;
+  margin: 5px;
+}
+.footer_card h2 {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
